@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: #8f6552;
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #8f6552;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.hero img{
+    width: 100%;
+}
+.about{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    color: #8f6552;
+}
+.about h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.menu{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    color: #8f6552;
+}
+.menu p{
+    margin-bottom: 20px;
+}
+aside{
+    background-color: #8f6552;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+aside h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+aside p{
+    margin-bottom: 20px;
+}
+aside img{
+    width: 150px;
+    padding-bottom: 40px;
+}
+
+aside .btn{
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 20px 70px;
+    border: 2px solid #8f6552;
+    border-radius: 100px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: #8f6552;
+}
